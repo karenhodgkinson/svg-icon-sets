@@ -1,0 +1,11 @@
+html {
+  font-family: Overpass, sans-serif;
+}
+
+.all {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), #ff9500, #ff5e3a);
+}
+
+svg {
+  color: #fff;
+}
