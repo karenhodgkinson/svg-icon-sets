@@ -1,11 +1,46 @@
 html {
   font-family: Overpass, sans-serif;
+  color: #fff;
 }
 
-.all {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), #ff9500, #ff5e3a);
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
 svg {
-  color: #fff;
+  fill: #fff;
+}
+
+.btn {
+  color: rgba(255, 255, 255, 1);
+  border: rgba(255, 255, 255, 1) 2px solid;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.line {
+  border-bottom: #ff9500 2px solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .line {
+    border-bottom: none;
+    border-right: #ff9500 2px solid;
+  }
+
+  .unit {
+    max-width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .unit {
+    max-width: 400px;
+  }
+
 }
